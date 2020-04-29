@@ -58,6 +58,7 @@ class Registrant extends Model
         'no_of_employees',
         'comments',
         'custom_questions',
+        'registrant_id'
     ];
 
     protected $updateAttributes = [
