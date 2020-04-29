@@ -38,6 +38,7 @@ class Registrant extends Model
         'status' => '', // string
         'create_time' => '', // string [date-time]
         'join_url' => '', // string [string]
+        'registrant_id' => '', // string [string]
     ];
 
     protected $createAttributes = [
